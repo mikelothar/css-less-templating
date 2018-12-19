@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "lite-server",
-    "less": "lessc ./styles/themes/primary/main.less ./primary.css && lessc ./styles/themes/secondary/main.less ./secondary.css "
+    "less": "lessc ./less/primary/primary.less ./styles/primary.css && lessc ./less/secondary/secondary.less ./styles/secondary.css "
   },
   "dependencies": {
     "less": "^3.9.0",
