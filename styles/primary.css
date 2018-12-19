@@ -1,3 +1,4 @@
+/* /less/index.less */
 html,
 body {
   height: 100%;
@@ -10,6 +11,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   overflow: hidden;
 }
+/* /less/components/_App.less */
 .App {
   font-size: 10vw;
   letter-spacing: 3vw;
