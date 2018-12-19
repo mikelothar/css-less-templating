@@ -11,7 +11,6 @@ body {
   overflow: hidden;
 }
 .App {
-  position: relative;
   font-size: 10vw;
   letter-spacing: 3vw;
   color: white;
