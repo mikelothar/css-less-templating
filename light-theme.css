@@ -4,7 +4,7 @@ body {
   height: 100%;
 }
 body {
-  background: black;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,15 @@ body {
 }
 /* /less/components/_App.less */
 .App {
-  font-size: 10vw;
-  letter-spacing: 3vw;
-  color: white;
+  font-size: 4vw;
+  letter-spacing: 5vw;
+  color: black;
+  text-transform: uppercase;
+}
+/* /less/secondary/components-overwrite/_App.less */
+.App {
+  font-size: 15vw;
+  letter-spacing: -0.5vw;
+  text-transform: none;
+  transform: rotate(0.5turn);
 }
