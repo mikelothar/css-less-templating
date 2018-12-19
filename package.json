@@ -1,15 +1,12 @@
 {
   "name": "css-less-templating",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
     "less": "lessc ./styles/themes/primary/main.less ./primary.css && lessc ./styles/themes/secondary/main.less ./secondary.css "
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "less": "^3.9.0"
+    "less": "^3.9.0",
+    "lite-server": "^2.4.0"
   }
 }
