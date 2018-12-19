@@ -1,3 +1,7 @@
 # CSS Less templating
 
-This is a small POC to demonstrate a way to use themes with Less. `primary.html` and `secondary.html` each use their respective `primary.css` and `secondary.css` file. They're both inserted into `index.html` via iframes.
+This is a small POC to demonstrate a way to use themes with Less. 
+
+`primary.html` and `secondary.html` each use their respective `primary.css` and `secondary.css` file. They're both inserted into `index.html` via iframes.
+
+![CSS Less templating](css-less-templating.png "CSS Less templating")
